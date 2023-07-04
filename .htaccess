@@ -1,0 +1,6 @@
+BrowserMatchNoCase SpammerRobot bad_bot
+BrowserMatchNoCase SecurityHoleRobot bad_bot
+Order Deny,Allow
+Deny from env=bad_bot
+Deny from 154.28.229
+Deny from 104.164.173
